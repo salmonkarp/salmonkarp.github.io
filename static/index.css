@@ -1,0 +1,130 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    background: linear-gradient(239deg,#bf4ba3,#810f11,#b47754,#c19bc7,#45abf8,#151f6b);
+    background-size: 360% 360%;
+    animation: gradient-animation 17s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: absolute;
+    transition: left 0.5s ease-in-out;
+    left: 0;
+}
+
+.body-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+
+.title{
+    font-size: 3em;
+    color:white;
+    margin:0;
+}
+
+.subtitle{
+    font-size:1em;
+    color:white;
+    margin:0;
+    margin-top:0.5em;
+    margin-bottom:1.5em;
+}
+
+.website-list{
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.126);
+    padding: 1em;
+    border-radius: 0.5em;
+    color:white;
+    display:grid;
+}
+
+.list-title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.recent-work-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.website-item{
+    display:block;
+    text-align: center;
+    width:100%;
+    margin-top:0.3em;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+}
+
+.website-item > a{
+    text-decoration: none;
+    color:white;
+    text-wrap: nowrap;
+    transition: font-size 200ms ease;
+}
+
+.website-item > a:hover{
+    text-decoration: none;
+    color:rgb(201, 216, 248);
+    font-size:1.2em;
+}
+
+.logo-container{
+    position: absolute;
+    bottom:5%;
+    width:100vw;
+    max-width: 400px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.logo-container > .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    border: none;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    padding: 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 200ms ease, font-size 200ms ease;
+    color: #333;
+}
+
+.logo-container > .btn:hover {
+    background-color: white;
+    font-size:33px;
+}
