@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Where in the world?",
+        "description": "An educational website about the countries of the world. Dynamic and responsive, filterable based on region.",
+        "imageLink": "images/where.png",
+        "type": "Coding",
+        "link": "https://countries-edutool.onrender.com/"
+    },
+    {
+        "title": "Rock Paper Scissors",
+        "description": "A website to challenge your guessing skills by playing against against a computer AI! Keeps track of your score, btw.",
+        "imageLink": "images/rps.png",
+        "type": "Coding",
+        "link": "https://salmonkarp.github.io/rock-paper-scissors/"
+    }
+]
