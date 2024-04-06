@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let newCard = document.createElement('div');
             newCard.classList.add('content-card');
             newCard.setAttribute('type',obj.type);
-            newCard.addEventListener('onclick', () => {window.location.href = obj.link});
+            newCard.onclick = () => {window.location.href = obj.link}
             newCard.innerHTML = `
             <img src="${obj.imageLink}" alt="">
             <div class="content-title">${obj.title}</div>
@@ -30,3 +30,19 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Error loading JSON file:', error);
     });
 })
+
+function redirect(link){window.location.href = link}
+
+function filter(el){
+    let filterType = el.innerHTML;
+    let cards = document.querySelectorAll('.content-card');
+    cards.forEach(card => {
+        let type = card.getAttribute('type');
+        if( filterType === 'All' || type === filterType){
+            card.style.display = 'block';
+        }
+        else{
+            card.style.display = 'none';
+        }
+    });
+}
