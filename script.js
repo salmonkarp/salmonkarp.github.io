@@ -1,12 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(() => {
-        console.log(window.innerHeight, window.getComputedStyle(document.body).height);
-        if(window.innerHeight < parseInt(window.getComputedStyle(document.body).height))
-        {
-            console.log('yes')
-            document.querySelector('.background').style.height = window.getComputedStyle(document.body).height;
-        }
-    }, 150);
     fetch('data.json')
     .then(response => response.json())
     .then(data => {
@@ -29,6 +21,15 @@ document.addEventListener('DOMContentLoaded', () => {
     .catch(error => {
         console.error('Error loading JSON file:', error);
     });
+
+    setTimeout(() => {
+        console.log(window.innerHeight, window.getComputedStyle(document.body).height);
+        if(window.innerHeight < parseInt(window.getComputedStyle(document.body).height))
+        {
+            console.log('yes')
+            document.querySelector('.background').style.height = window.getComputedStyle(document.body).height;
+        }
+    }, 50);
 })
 
 function redirect(link){window.location.href = link}
