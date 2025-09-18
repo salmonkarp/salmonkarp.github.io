@@ -1,4 +1,4 @@
-{% include my-header.html %}
+{% include header.html %}
 
 # salmonkarp 
 
