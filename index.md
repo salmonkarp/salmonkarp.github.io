@@ -1,5 +1,3 @@
-[Home](/) | [Projects](/projects) | [About](/about)
-
 # salmonkarp 
 
 Hi! I'm Gary (any/all) and I'm a NUS Y2 Computer Science Student. <br>
@@ -12,3 +10,5 @@ I also like to write as well as make films!
 - [CS2103T iP](https://github.com/salmonkarp/ip)
 - [CS1231S TA (For 11B)](/cs1231s.md)
 - More coming soon...
+
+[Home](/) | [Projects](/projects) | [About](/about)

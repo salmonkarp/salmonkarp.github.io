@@ -31,11 +31,13 @@ which is **FALSE**.
 
 What most of you have actually written up to that point is that the premise itself is not logically consistent. Hence, the proper way of writing it is by "abandoning" the premise itself, e.g.
 
-> Since both cases lead to a contradiction with line..., hence the assumption $Odd(a) \wedge Odd(b)$ cannot be true. <br>
+> Since both cases lead to a contradiction with line..., hence the assumption 
+> $Odd(a) \wedge Odd(b)$ cannot be true.
+
 > Hence, $Even(a) \vee Even(b)$.
 
 * It is already **implicitly assumed** that $a^2 + b^2 = c^2$.  
+* Note that you are asked to do a contraposition proof: you would have been asked to **ONLY assume that $Odd(a) \wedge Odd(b)$**, not $a^2 + b^2 = c^2$ too, since that is what you are trying to reach at the end of a contradiction proof.
 
-* Note that you are asked to do a contraposition proof, you would have been asked to **ONLY assume that $Odd(a) \wedge Odd(b)$**, not $a^2 + b^2 = c^2$ too as this is what you're trying to reach at the end of a contradiction proof.
 
 ### <a href="javascript:history.back()">← Back</a> | [Home](/) | [Projects](/projects) | [About](/about) |
