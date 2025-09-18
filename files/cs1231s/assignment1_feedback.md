@@ -1,9 +1,11 @@
-### <a href="javascript:history.back()">← Back</a> | [Home](/) | [Projects](/projects) | [About](/about) |
-
 # Assignment 1 Feedback
 This is a reference document for general feedback for T11B. <br>
 
 It would be good if you can review this document and confirm that you understand all the pointers, but it is completely okay to skip this if you think you have mastered the assignment already. <br>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js">
+</script>
 
 ## Question 5
 
@@ -36,3 +38,4 @@ What most of you have actually written up to that point is that the premise itse
 
 * Note that you are asked to do a contraposition proof, you would have been asked to **ONLY assume that $Odd(a) \wedge Odd(b)$**, not $a^2 + b^2 = c^2$ too as this is what you're trying to reach at the end of a contradiction proof.
 
+### <a href="javascript:history.back()">← Back</a> | [Home](/) | [Projects](/projects) | [About](/about) |
