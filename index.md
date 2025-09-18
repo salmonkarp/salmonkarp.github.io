@@ -12,5 +12,5 @@ I'm passionate in the fields of Software Engineering and Game Development. <br>
 I also like to write as well as make films!
 
 ## Links
-- CS1231S (For 11B)
+- [CS1231S (For 11B)](/cs1231s.md)
 - More coming soon...
