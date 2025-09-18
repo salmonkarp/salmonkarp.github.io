@@ -1,7 +1,4 @@
----
-layout: default
-title: salmonkarp
----
+{% include my-header.html %}
 
 # Assignment 1 Feedback
 This is a reference document for general feedback for T11B. <br>
