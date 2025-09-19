@@ -1,1 +1,1 @@
-<a href="javascript:history.back()">← Back</a> | [Home](/) | [About](/pages/about/about.md)
+<a href="javascript:history.back()">← Back</a> | [Home](/) | [About](/pages/about.md)
