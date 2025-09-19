@@ -1,5 +1,5 @@
 # Assignment 1 Feedback
-This is a reference document for general feedback for T11B. <br>
+This is a reference document containing general feedback for T11B. <br>
 
 It would be good if you can review this document and confirm that you understand all the pointers, but it is okay to skip this if you think you have mastered the assignment already. <br>
 
@@ -12,34 +12,37 @@ No major issue. Just be careful when doing this in exam as these are meant to be
 
 ## Question 1b
 The order of variables still matter at this stage! (e.g. in distributive law, identity law, negation law, etc.) <br>
+
 You may be penalised if said order is wrong. <br>
 
 Another common error is to cite the wrong property. <br>
-Identity Law $$\neq$$ Negation Law $$\neq$$ Idempotent Law $$\neq$$ Universal Bound Law. <br>
-Take note of their differences! <br>
+Identity Law $$\neq$$ Negation Law $$\neq$$ Idempotent Law $$\neq$$ Universal Bound Law! <br>
+Take note of their differences. <br>
 
 Also, take note of this property: <br>
-$$ \neg(a \to b) = (a \wedge \neg b)$$ <br>
+> $$ \neg(a \to b) = (a \wedge \neg b)$$ <br>
+
 This is not part of core logical equivalences (if you check, it's not on the summary table often used).
-Hence, you **CANNOT** use this here and simply quote "absorption law". <br> <br>
+Hence, you **CANNOT** use this here and simply quote "by absorption law". <br> <br>
 Apparently, Prof has also mentioned that even quoting it directly from lecture should not be allowed. Hence, you should only use this when asked for a more loose proof (like in Q5, Q6) and in MCQs.
 
 ## Question 2
-Most of the 'arguments' written here look more like **PROOFS**, not **ARGUMENTS**.
-For the majority who did this, this wasn't penalised **because most still had the correct laws of inference.** To be specific, we require:
+Most of the solutions written by the class look more like **PROOFS**, not **ARGUMENTS**.
+For the majority who did this, this wasn't penalised **because most still had the correct laws of inference.** To be specific, we only require:
 * A logical sequence of steps.
 * Laws of inference when non-trivially required: e.g. modus ponens, modus tollens, transitive rule of inference.
 * No use of non-trivial properties to solve the question, which includes:
   * Use of implication law from P2 and directly concluding without saying specialization. <br>
   (This is admittedly a harsh requirement. However, the purpose of doing this is that it should have been obvious that just using one law from P2 $$\to$$ conclusion is not what we want, given this is a 5-mark question. Thankfully, no one did this to an extreme extent.)
-  * Use of negation law / identity law / universal bound law to replace generalisation, which many unfortunately did.
+  * Use of universal bound law to replace generalisation, which many unfortunately did. This is not necessarily because you used the property, but because this delves into asserting that certain values = true.
 
-Taking contrapositive and double negative law is allowed. However, a more argument-like justification is usually able to replace them (modus ponens, modus tollens, etc).
+**Using contrapositive and double negative law is allowed,** However, a more argument-like justification is usually able to replace them (modus ponens, modus tollens, etc).
 
 To see how an ideal argument should look like, you can look at T1 or other sources. I have also annotated those with model solutions, so ask around if any of your classmates have the model solution.
 
 > #### ERRATA
-> In tutorial, I said that overly-long arguments may be penalised, specifically as this might skip a step that is part of the marking scene. This was in reference to Q2, where transitive law of inference **used to be** a strict requirement. This has been changed. You should get full marks even if you don't use transitive laws of inference.
+> In tutorial, I said that overly-long arguments may be penalised, specifically as this might skip a step that is part of the marking scene. This was in reference to Q2, where transitive law of inference **used to be** a strict requirement. This has been changed. You should get full marks even if you don't use transitive laws of inference. <br> <br>
+> Still, try to write fewer lines if you are confident enough to do so. From observation, those who wrote longer proofs for Q5 and 6 were more likely to have minor errors here and there. Refer to the answer key upon release to see how concise proofs can be.
 
 ## Question 3
 No major issue. Error typically in part d, where both cases were not considered.
@@ -59,7 +62,7 @@ $$a, b \text{ are odd such that } a^2 + b^2 = c^2$$
 
 This is essentially an indicator to you that you are meant to **CONTRADICT** this statement.
 
-Most did perfectly fine in contradicting individual cases, or even taking good shortcuts in doing so. However a significant number gave the wrong conclusion.  
+Most did perfectly fine in contradicting individual cases, even taking good shortcuts in doing so. However a significant number gave the wrong conclusion.  
 
 A very common conclusion is:
 
@@ -86,6 +89,9 @@ Additional pointers:
 
 ## Question 6
 Done even better than Question 5. Almost all got full marks. <br>
+
+Since this questions requires a shorter proof, missing crucial justifications will lose you more marks (-1 per missing justification). <br>
+
 Originally, this question expected you to account for A = {}. While this didn't end up being the case, it is good to remind yourself what would be different in your proof if A can indeed be {}. <br> <br>
 
 <a href="javascript:history.back()">← Back</a> | [Home](/) | [Projects](/pages/projects.md) | [About](/pages/about/about.md)
