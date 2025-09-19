@@ -94,4 +94,4 @@ Since this questions requires a shorter proof, missing crucial justifications wi
 
 Originally, this question expected you to account for A = {}. While this didn't end up being the case, it is good to remind yourself what would be different in your proof if A can indeed be {}. <br> <br>
 
-<a href="javascript:history.back()">← Back</a> | [Home](/) | [Projects](/pages/projects.md) | [About](/pages/about/about.md)
+{% include footer.md %}
