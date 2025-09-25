@@ -24,7 +24,10 @@ Also, take note of this property: <br>
 
 This is not part of core logical equivalences (if you check, it's not on the summary table often used).
 Hence, you **CANNOT** use this here and simply quote "by absorption law". <br> <br>
-Apparently, Prof has also mentioned that even quoting it directly from lecture should not be allowed. Hence, you should only use this when asked for a more loose proof (like in Q5, Q6) and in MCQs.
+Apparently, Prof has also mentioned that even quoting it directly from lecture should not be allowed. Hence, you should only use this when asked for a more loose proof (like in Q5, Q6) and in MCQs. <br>
+
+**By right, associative law should have been used at the final line. I did not mark down for this,
+but don't be surprised if you are in exams.**
 
 ## Question 2
 Most of the solutions written by the class look more like **PROOFS**, not **ARGUMENTS**.
